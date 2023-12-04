@@ -1,0 +1,13 @@
+cabal-version: 3.0
+name: aoc
+version: 0.1.0.0
+build-type: Simple
+
+common options
+    ghc-options: -Wall
+    build-depends: base, megaparsec, parser-combinators
+    default-language: GHC2021
+
+executable day-04
+    import: options
+    main-is: day-04.hs
